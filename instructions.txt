@@ -1,0 +1,4 @@
+Contains code to handle open/close TODO: add a method for storing state. Cookie or local storage should be fine for the na
+
+
+Please refer to the website for more instructions.
