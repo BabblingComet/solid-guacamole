@@ -1,0 +1,69 @@
+/* ---------------------------------------------------
+    ICONS
+----------------------------------------------------- */
+.icon {
+	width:28px;
+	height:28px;
+	background-image:url(../img/icon-sprite.svg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	display:inline-block;
+	background-size:auto;
+}
+
+.icon {
+	background-position-x:3px;
+}
+
+ul li a.active .icon {
+	background-position-x:-97px;
+}
+
+.icon-dashboard {
+	background-position-y:0;
+}
+
+.icon-catalog {
+	background-position-y:-48px;
+}
+
+.icon-licenses {
+	background-position-y:-98px;
+}
+
+.icon-unsanctioned {
+	background-position-y:-148px;
+}
+
+.icon-usage {
+	background-position-y:-198px;
+}
+
+.icon-all-users {
+	background-position-y:-248px;
+}
+
+.icon-inactive-users {
+	background-position-y:-298px;
+}
+
+.icon-suspicious-users {
+	background-position-y:-348px;
+}
+
+.icon-organization-usage {
+	background-position-y:-398px;
+}
+
+.icon-settings {
+	background-position-y:-448px;
+}
+
+.icon-team-members {
+	background-position-y:-498px;
+}
+
+.icon-team-roles {
+	background-position-y:-548px;
+}

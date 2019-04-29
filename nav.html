@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Latest compiled and minified JavaScript - this should already be available in SaaS Manager code. -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    		<!-- Contains code to handle open/close TODO: add a method for storing state. Cookie or local storage should be fine for the nav. -->
+    		<script src="assets/js/nav.js"></script>
+
+        <link rel="stylesheet" href="assets/css/index.css" />
+        <link rel="stylesheet" href="assets/css/nav.css" />
+        <link rel="stylesheet" href="assets/css/icons.css" />
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <!-- sidenav -->
+            <nav id="sidenav" data-navstate="full">
+                 <ul class="nav-group">
+                    <li class="nav-section">
+                      <ul>
+                        <li class="nav-item">
+                          <a href="#" class="nav-item-link active">Dashboard</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-section">
+                        <h6><span class="icon icon-catalog"></span><span class="section-title">Applications</span></h6>
+                        <ul>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Catalog</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Licenses</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Unsanctioned</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Usage</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-section">
+                          <h6><span class="icon icon-all-users"></span><span class="section-title">Users</span></h6>
+                          <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-item-link">All Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-item-link">Inactive Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-item-link">Suspicious Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-item-link">Organization Usage</a>
+                            </li>
+                          </ul>
+                    </li>
+                    <li class="nav-section">
+                        <h6><span class="icon icon-settings"></span><span class="section-title">Administration</span></h6>
+                        <ul>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Settings</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Domains</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Team Members</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Team Roles</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Organizational Structure</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#" class="nav-item-link">Applications</a>
+                          </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="nav-edge"><!--button type="button" id="nav-control"></button--></div>
+            </nav>
+
+            <!-- Page Content -->
+            <section id="content"></section>
+
+        </div>
+    </body>
+</html>

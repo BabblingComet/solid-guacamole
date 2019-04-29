@@ -1,0 +1,177 @@
+body {
+	position:relative;
+	background-color:#F9F9FC;
+	font-family:'Source Sans Pro',sans-serif;
+	font-size:.875rem;
+}
+
+.content {
+	position:absolute;
+	width:100%;
+	top:25%;
+	font-size:.7rem;
+	color:#000;
+	text-align:center;
+	font-weight:400;
+}
+
+.fadeout {
+	opacity:0;
+	transition:opacity .25s ease-in-out;
+	-moz-transition:opacity .25s ease-in-out;
+	-webkit-transition:opacity .25s ease-in-out;
+}
+
+.wrapper {
+	display:flex;
+	align-items:stretch;
+}
+
+/* SIDE NAV */
+nav,
+nav[data-navstate=min]:hover {
+  min-width: 250px;
+  max-width: 250px;
+	width: 250px;
+	position:fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background:#fff;
+	color:#4A4A4A;
+	padding: 16px 0 0 0;
+}
+
+nav ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+
+nav .nav-section {
+	margin:0 0 16px 0;
+}
+
+nav .nav-section h6 {
+	position:relative;
+	font-weight:600;
+	text-transform:uppercase;
+	font-size:.8rem;
+	visibility:visible;
+	opacity:1;
+	margin: 0;
+	padding: 0 16px;
+	transition:visibility 1ms;
+	transition:opacity .5s linear 10ms;
+}
+
+nav .nav-section h6 .icon {
+	line-height: 28px;
+	vertical-align: top;
+}
+nav .nav-section .section-title  {
+	padding-left: 8px;
+	height: 28px;
+	line-height: 28px;
+	vertical-align: top;
+	display: inline-block;
+	color: #4A4A4A;
+	margin: 0;
+	position: relative;
+	visibility: visible;
+	opacity: 1;
+}
+
+nav .nav-section .nav-item {
+	position:relative;
+	margin-left: 0;
+	visibility:visible;
+	opacity:1;
+	transition:visibility 1ms;
+	transition:opacity .5s linear 250ms;
+	list-style:none;
+}
+
+
+nav .nav-section .nav-item .nav-item-link{
+	padding:8px 16px 8px 52px;
+	margin-left: 0;
+	text-align:center;
+	font-size:1.1em;
+	display:flex;
+	align-items:center;
+	color:#4A4A4A;
+}
+
+nav .nav-section .nav-item .nav-item-link:hover {
+	background:#F9F9FC;
+	text-decoration:none;
+	-webkit-transition:background-color 200ms ease-in-out;
+	-ms-transition:background-color 200ms ease-in-out;
+	transition:background-color 200ms ease-in-out;
+}
+
+nav .nav-section .nav-item .nav-item-link.active,
+nav .nav-section .nav-item .nav-item-link.active:hover {
+	background-color:#1CAFE7;
+	color:#fff;
+	font-weight:700;
+	display:flex;
+	-webkit-transition:background-color 200ms ease-in-out;
+	-ms-transition:background-color 200ms ease-in-out;
+	transition:background-color 200ms ease-in-out;
+}
+
+.nav-edge {
+	background:#D7D8D8;
+	width:1px;
+	height:100%;
+	position:absolute;
+	top:0;
+	right:-1px;
+}
+
+/* not useed
+nav[data-navstate=min] {
+	min-width:60px;
+	max-width:60px;
+}
+
+nav[data-navstate=min] .nav-section .section-title {
+	position:absolute;
+	margin-left:-1000px;
+	visibility:hidden;
+	opacity:0;
+	transition:visibility 1ms;
+	transition:opacity 1ms linear 1ms;
+}
+
+nav[data-navstate=min] .nav-section .nav-item {
+	position:absolute;
+	margin-left:-1000px;
+	visibility:hidden;
+	opacity:0;
+	transition:visibility 1ms;
+	transition:opacity 1ms linear 1ms;
+}
+
+
+.nav-edge #nav-control {
+	position:absolute;
+	height:44px;
+	width:6px;
+	top:50%;
+	right:-3px;
+	margin:-22px 0 0 0;
+	background:#D7D8D8;
+	cursor:pointer;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+.nav-edge #nav-control:hover,
+.nav-edge #nav-control:focus {
+	background:#999;
+}
+*/
