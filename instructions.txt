@@ -2,3 +2,5 @@ Contains code to handle open/close TODO: add a method for storing state. Cookie 
 
 
 Please refer to the website for more instructions.
+
+Change made in sammple branch.
